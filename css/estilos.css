@@ -82,3 +82,40 @@ html {
 .caja-vw {
     width: 50vw;
 }
+
+html {
+    font-size: 16px;
+}
+
+header {
+    width: 100vw;
+    min-height: 20vh;
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    /* Para centrarlo */
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.grid div {
+    border: 3px solid black;
+    padding: 1rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 2px solid gray;
+}
